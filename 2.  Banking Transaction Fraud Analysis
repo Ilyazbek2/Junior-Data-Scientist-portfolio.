@@ -1,0 +1,62 @@
+Scenario
+
+You are working for a bank.
+
+Your job is to analyze millions of transactions and identify suspicious customer behavior.
+
+Tables
+customers
+customer_id
+customer_name
+country
+account_created
+risk_level
+accounts
+account_id
+customer_id
+account_type
+balance
+transactions
+transaction_id
+account_id
+transaction_date
+transaction_type
+amount
+merchant_id
+country
+merchants
+merchant_id
+merchant_name
+merchant_category
+country
+SQL Problems
+Calculate total transaction volume.
+Find customers with the highest transaction amounts.
+Find transactions above €10,000.
+Calculate daily transaction volume.
+Find customers making more than 10 transactions in one day.
+Identify accounts with unusually large withdrawals.
+Find transactions performed outside the customer's home country.
+Find accounts sending money to multiple countries.
+Calculate average transaction size for every customer.
+Identify transactions that are 3× higher than the customer's average transaction.
+Rank customers by transaction volume.
+Find the top merchants by transaction value.
+Calculate a running account transaction total.
+Detect customers making several large transactions within the same day.
+Create a fraud-risk classification using CASE.
+
+Example:
+
+CASE
+    WHEN amount > 20000 THEN 'HIGH RISK'
+    WHEN amount > 10000 THEN 'MEDIUM RISK'
+    ELSE 'LOW RISK'
+END
+Advanced Challenge
+
+Detect transactions where:
+
+Transaction Amount > Customer Average + 2 × Standard Deviation
+
+This can help identify unusual financial activity.
