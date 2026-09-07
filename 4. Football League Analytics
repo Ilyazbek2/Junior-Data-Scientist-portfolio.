@@ -35,6 +35,8 @@ shots
 passes
 yellow_cards
 red_cards
+
+
 SQL Problems
 Find the league's top scorers.
 Find players with the most assists.
