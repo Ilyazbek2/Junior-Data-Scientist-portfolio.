@@ -1,0 +1,81 @@
+Scenario
+
+You work as a Data Analyst for a football league.
+
+The league wants detailed player, club and match analytics.
+
+Tables
+teams
+team_id
+team_name
+city
+stadium
+players
+player_id
+player_name
+team_id
+position
+nationality
+birth_date
+matches
+match_id
+match_date
+home_team_id
+away_team_id
+home_goals
+away_goals
+player_stats
+stat_id
+match_id
+player_id
+minutes_played
+goals
+assists
+shots
+passes
+yellow_cards
+red_cards
+SQL Problems
+Find the league's top scorers.
+Find players with the most assists.
+Find players with the most goals + assists.
+Calculate goals per 90 minutes.
+Rank players inside each team.
+Find the highest-scoring teams.
+Calculate home wins, away wins and draws.
+Calculate points for each team.
+
+Points:
+
+Win  = 3
+Draw = 1
+Loss = 0
+Generate the league standings.
+Calculate goal difference.
+Find teams with the longest winning streak.
+Find the youngest and oldest players.
+Find the best scorer for every team.
+Calculate each player's contribution to team goals.
+Find players who scored in consecutive matches.
+Advanced Challenge
+
+Build the complete league table:
+
+Team
+Played
+Wins
+Draws
+Losses
+Goals For
+Goals Against
+Goal Difference
+Points
+Position
+
+Use:
+
+RANK() OVER (
+    ORDER BY points DESC, goal_difference DESC
+)
+
+This is a very strong SQL portfolio project.
