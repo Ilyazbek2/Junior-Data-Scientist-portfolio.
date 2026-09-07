@@ -1,0 +1,68 @@
+Scenario
+
+You work for a software company similar to Spotify, Canva, Notion or ChatGPT.
+
+Management wants to understand:
+
+revenue
+customers
+subscription growth
+churn
+customer lifetime value
+Tables
+customers
+customer_id
+company_name
+country
+signup_date
+subscriptions
+subscription_id
+customer_id
+plan_id
+start_date
+end_date
+status
+plans
+plan_id
+plan_name
+monthly_price
+payments
+payment_id
+customer_id
+payment_date
+amount
+payment_status
+product_usage
+usage_id
+customer_id
+usage_date
+sessions
+minutes_used
+SQL Problems
+Calculate total revenue.
+Calculate monthly recurring revenue — MRR.
+Calculate annual recurring revenue — ARR.
+Find the highest-paying customers.
+Calculate average revenue per customer.
+Calculate active customers each month.
+Calculate new customers per month.
+Calculate cancelled subscriptions.
+Calculate monthly churn rate.
+Calculate customer retention rate.
+Find customers whose usage decreased significantly.
+Rank customers by total revenue.
+Calculate customer lifetime value.
+Find the most profitable subscription plan.
+Calculate month-over-month MRR growth.
+Advanced Challenge
+
+Calculate SaaS KPIs:
+
+MRR
+ARR
+ARPU
+Customer Churn
+Revenue Churn
+Customer Lifetime Value
+Retention Rate
+Growth Rate
