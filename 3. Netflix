@@ -36,6 +36,8 @@ plan
 monthly_price
 start_date
 end_date
+
+
 SQL Problems
 Find the most watched movies.
 Find the most popular genres.
