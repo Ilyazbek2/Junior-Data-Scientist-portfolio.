@@ -38,6 +38,8 @@ customer_id
 usage_date
 sessions
 minutes_used
+
+
 SQL Problems
 Calculate total revenue.
 Calculate monthly recurring revenue — MRR.
