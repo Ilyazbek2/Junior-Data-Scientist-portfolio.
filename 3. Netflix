@@ -1,0 +1,74 @@
+Scenario
+
+You are a Data Analyst working for a streaming company similar to Netflix.
+
+Management wants to understand what users watch and which content keeps customers active.
+
+Tables
+users
+user_id
+name
+country
+signup_date
+subscription_type
+movies
+movie_id
+title
+genre
+release_year
+duration_minutes
+watch_history
+watch_id
+user_id
+movie_id
+watch_date
+minutes_watched
+ratings
+rating_id
+user_id
+movie_id
+rating
+rating_date
+subscriptions
+subscription_id
+user_id
+plan
+monthly_price
+start_date
+end_date
+SQL Problems
+Find the most watched movies.
+Find the most popular genres.
+Calculate total watch time per user.
+Find the top users by watch time.
+Calculate average movie rating.
+Find movies with ratings above the platform average.
+Find the most popular genre in every country.
+Rank movies inside each genre.
+Calculate monthly active users.
+Calculate average minutes watched per customer.
+Find users who did not watch anything during the last 30 days.
+Calculate monthly subscription revenue.
+Calculate cumulative subscription revenue.
+Find users who watch more than the average user.
+Create a user engagement classification.
+
+Example:
+
+CASE
+    WHEN total_minutes > 3000 THEN 'Heavy User'
+    WHEN total_minutes > 1000 THEN 'Regular User'
+    ELSE 'Light User'
+END
+Advanced Challenge
+
+Calculate customer retention:
+
+Users active this month
+AND
+Users active last month
+
+Then calculate:
+
+Retention Rate =
+Returning Users / Previous Month Active Users
